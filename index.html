@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Module 4</title>
+</head>
+<header id="title">
+    <h1 class="title">Hotel Booking</h1>
+</header>
+<main>
+    <section class=night-number>
+        <label for="night-number">Enter number of nights</label>
+        <input type="text" id="input-night-number">
+    </section>
+    <section class=room-type>
+        <label for="room-type">Enter room type</label>
+        <select id="input-room-type">
+            <option value="standard"> Standard </option>
+            <option value="juniorSuite"> Junior Suite </option>
+            <option value="suite"> Suite </option>
+        </select>
+    </section>
+    <section class=spa>
+        <label for="spa"> Spa option </label>
+        <input type="checkbox" id="input-spa">
+    </section>
+    <section class=room-capacity>
+        <label for="room-capacity">Enter persons per room</label>
+        <select id="input-room-capacity">
+            <option value="single"> Single </option>
+            <option value="double"> Double </option>
+            <option value="triple"> Triple </option>
+        </select>
+    </section>
+    <section class=parking-nights>
+        <label for="parking-nights">Enter number of parking nights</label>
+        <input type="text" id="input-parking-nights">
+    </section>
+    <section class=price>
+        <button id="total-price">Calculate total price</button>
+        <input type="text" id="input-total-price">
+    </section>
+</main>
+
+<body>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
