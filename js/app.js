@@ -35,7 +35,7 @@ var priceNights = (nightNumber, roomType, spa) => {
     return price;
 }
 
-// Spa = +20€ precio habitación por noche
+// Spa = +20€ precio de habitación por noche
 var priceSpa = (spa) => spa === true ? 20 : 0;
 
 // Capaity: Individual -25% / Triple +25%
@@ -55,6 +55,7 @@ var capacity = (roomCapacity) => {
 // Noche de parking = 10€
 var priceParking = (parking) => parking * 10;
 
+// Función para el cálculo de precio total de la reserva
 var totalPrice = (bookingData) => {
     var total = 0;
     booking(bookingData);
